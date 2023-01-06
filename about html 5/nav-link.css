@@ -1,0 +1,24 @@
+nav ul{
+display: flex;
+}
+nav li{
+  list-style: none;
+  margin-right: 12px;
+}
+nav li a{ 
+  text-decoration: none;
+  padding: 0 5px;
+}
+body{background-color: aqua;}
+nav li:hover{
+  background-color: lightcoral;
+}
+nav li .dropdwon{
+display:none;
+position: absolute;
+background-color: lightgreen;
+padding-left: 0px;}
+
+ nav li:hover .dropdwon{
+  display: block;
+}
